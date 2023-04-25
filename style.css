@@ -1,0 +1,81 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+body{
+      background-color: bisque;
+}
+.container{
+      background-color: aliceblue;
+      width: 70%;
+      margin: auto;
+      min-height: 100vh;
+      padding: 30px;
+      box-sizing: border-box;
+}
+.date {
+      padding: 20px;
+      margin: auto;
+      font-size: 20px;
+      font-weight: bold;
+      color:rgba(0,0,0,0.75);
+      align-items: center;
+      justify-content: center
+    }
+h1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 30px;
+}
+
+form{
+      display: flex;
+      flex-direction: column;
+}
+input,textarea,button{
+      padding: 10px;
+      border: 1px solid rgb(0,0,0,0.3);
+      font: 100 1.1rem sans-serif;
+      border-radius: 5px;
+      outline: none;
+      margin: 10px
+}
+button{
+      background-color: rgba(50,50,50);
+      color: whitesmoke;
+      cursor: pointer;
+      transition: 0.2s;
+}
+button:hover{
+      background-color: black;
+}
+.task{
+      background-color: sandybrown;
+      font: 100 1.1rem sans-serif;
+      padding: 30px;
+      margin: 2vmax;
+      color: rgba(0,0,0,0.85);
+      display: flex;
+      align-items: center;
+}
+.task >div{
+      width: 100%;
+}
+
+.task span{
+      color: rgba(1, 11, 31);
+}
+.delbtn{
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      font-size: 1.6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: brown;
+
+}
+.delbtn:hover{
+      background-color: red;
+}
